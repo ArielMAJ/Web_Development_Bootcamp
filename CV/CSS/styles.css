@@ -7,6 +7,8 @@ body {
 h1 {
   text-align: center;
   color: #51C4D3;
+  font-size: 32px;
+  margin-block-start: 21px;
 }  
 
 h2 {
@@ -31,9 +33,6 @@ li{
 }
 li:hover {
   box-shadow: inset 0 0 3px #51C4D3, 0 0 10px #51C4D3;
-}
-
-table {
 }
 
 hr {
@@ -88,6 +87,7 @@ textarea{
   width: 80%;
 }
 
+
 .topBar{
   position: fixed;
   top: 0;
@@ -99,19 +99,20 @@ textarea{
   padding-top: 4px;
   width: 100%;
   color: #041C32;
-  font-size: 15px;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
+  font-size: 16px;
+
 }
 
 .bottomBar{
+  font-size: 16px;
   position: fixed;
   bottom: 0;
   left: 0;
   background-color: #51C4D3;
   border-top: 5px solid #064663;
   width: 100%;
-  font-size: min(max(4vw,15px), 18px);
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
   padding-bottom: 4px;
@@ -133,7 +134,7 @@ textarea{
 
 .outerBox{
   position: absolute;
-  top: 1vh;
+  top: 5vh;
   left: 50vw;
   width: 98vw;
   height: 90vh;
@@ -182,7 +183,7 @@ textarea{
   margin: 0;
   transform: translate(-50%, 0);
   box-sizing: border-box;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 
@@ -194,3 +195,48 @@ textarea{
   height: 40%;
 }
 
+@media only screen and (max-device-width : 480px) {
+
+  .bottomBar {
+      font-size: 20px;
+  }
+
+  .topBar{
+    font-size: 20px;
+  }
+
+  .outerBox{
+    top: 0vh;
+  }
+/*
+  hr{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+
+  table, th, td {
+    padding: 10px;
+  }
+
+  ol{
+    width: 70%;
+  }
+
+  form{
+    width: 90%;
+
+  }*/
+
+}
+/*
+@media only screen and (min-device-width : 481px) {
+
+  .bottomBar {
+      font-size: 19px;
+  }
+  .topBar{
+    font-size: 20px;
+  }
+
+}*/
