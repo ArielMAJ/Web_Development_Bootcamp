@@ -88,11 +88,6 @@ textarea{
   width: 80%;
 }
 
-.circular{
-  border-radius: 100%;
-  width: 220px;
-}
-
 .topBar{
   position: fixed;
   top: 0;
@@ -116,7 +111,7 @@ textarea{
   background-color: #51C4D3;
   border-top: 5px solid #064663;
   width: 100%;
-  font-size: min(max(4vw,12px),20px);
+  font-size: min(max(4vw,15px), 18px);
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
   padding-bottom: 4px;
@@ -137,13 +132,12 @@ textarea{
 
 
 .outerBox{
-  /*background-color: grey;*/
   position: absolute;
-  top: 50vh;
+  top: 1vh;
   left: 50vw;
-  width: 90vw;
+  width: 98vw;
   height: 90vh;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 0);
 
 }
 
@@ -152,7 +146,6 @@ textarea{
   height: 60%;
   top: 0;
   left: 0;
-  /*background-color: white;*/
   width: 55%;
 }
 
@@ -162,7 +155,6 @@ textarea{
   top: 0;
   right: 0;
   width: 45%;
-  /*background-color: yellowgreen;*/
 }
 
 .homePageImg{
@@ -172,7 +164,6 @@ textarea{
   max-height: 100%;
   max-width: 100%;
   border-radius: 100%;
-  /*transform: translate(0, -50%);*/
 
 }
 
@@ -180,35 +171,26 @@ textarea{
   position: absolute;
   bottom: 0;
   left: 0;
-  /*width: 100%;*/
-  /*background-color: red;*/
   font-size: min(max(6.7vw,12px), 50px);
-  /*transform: translate(0, -100%);*/
 }
 
 .homePageTxt{
   position: absolute;
   top: 5%;
   left: 50%;
-  /*max-width: 100%;*/
   width: 100%;
   margin: 0;
-  /*transform: translate(0, -100%);*/
-  /*transform: translate(0, -50%);*/
   transform: translate(-50%, 0);
   box-sizing: border-box;
-
+  font-size: 18px;
 }
 
 
 .btmInnerBox{
-  /*background-color: green;*/
   position: absolute;
   bottom: 0;
   left: 0;
-  /*transform: translate(-50%, -50%);*/
   width: 100%;
   height: 40%;
-  /*padding: 5px;*/
 }
 
