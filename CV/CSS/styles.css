@@ -101,12 +101,9 @@ textarea{
   color: #041C32;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
-  font-size: 16px;
-
 }
 
 .bottomBar{
-  font-size: 16px;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -194,21 +191,21 @@ textarea{
   width: 100%;
   height: 40%;
 }
-
+/*
 @media only screen and (max-device-width : 480px) {
 
-  /*.bottomBar {
+  .bottomBar {
       font-size: 18px;
   }
 
   .topBar{
     font-size: 18px;
-  }*/
+  }
 
   .outerBox{
     top: 0vh;
   }
-/*
+
   hr{
     margin-top: 100px;
     margin-bottom: 100px;
@@ -226,8 +223,9 @@ textarea{
   form{
     width: 90%;
 
-  }*/
-}
+  }
+}*/
+
 /*
 @media only screen and (min-device-width : 481px) {
 
