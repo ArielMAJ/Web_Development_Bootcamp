@@ -197,13 +197,13 @@ textarea{
 
 @media only screen and (max-device-width : 480px) {
 
-  .bottomBar {
-      font-size: 20px;
+  /*.bottomBar {
+      font-size: 18px;
   }
 
   .topBar{
-    font-size: 20px;
-  }
+    font-size: 18px;
+  }*/
 
   .outerBox{
     top: 0vh;
@@ -227,7 +227,6 @@ textarea{
     width: 90%;
 
   }*/
-
 }
 /*
 @media only screen and (min-device-width : 481px) {
