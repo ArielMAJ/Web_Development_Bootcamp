@@ -23,6 +23,7 @@ ol {
 }
 
 li{
+  background-color: #064663;
   text-align: justify;
   border-style: groove;
   border-width: 1px;
@@ -48,6 +49,7 @@ hr {
 }
 
 p{
+  background-color: #064663;
   text-align: justify;
   border-style: groove;
   border-width: 1px;
@@ -64,6 +66,10 @@ table, th, td {
   border: 2px groove #51C4D3;
   border-radius: 10px;
   padding: 3px;
+}
+
+th, td {
+  background-color: #064663;
 }
 table{
   width: 80%;
