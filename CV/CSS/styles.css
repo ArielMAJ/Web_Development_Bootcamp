@@ -168,7 +168,11 @@ textarea{
   max-height: 100%;
   max-width: 100%;
   border-radius: 100%;
-
+  border: 5px double rgba(81, 196, 211, .75);
+}
+.homePageImg:hover {
+  /*border: 5px solid rgba(81, 196, 211, .75);*/
+  box-shadow: 0 0 3px #bcf8ecff;
 }
 
 .homePageName{
