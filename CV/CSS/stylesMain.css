@@ -47,7 +47,7 @@ li{
   /*border-style: groove;*/
   /*border-width: 1px;*/
   border-radius: 10px;
-  padding: 1vh;
+  padding: 1.3vmax;
   /*margin-top: 2vh;*/
   margin-bottom: 2vh;
   counter-increment: item;
@@ -137,14 +137,14 @@ table:hover{ /*, th:hover, td:hover{*/
 }
 
 form{
-  width: 97%;
+  width: 97.5%;
 }
 
 input {
-  width: 97%;
+  width: 100%;
 }
 textarea{
-  width: 97%;
+  width: 100%;
 }
 
 
@@ -276,8 +276,8 @@ textarea{
   font-size: 1.2rem;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
-  width: 98.5%;
-  margin: 0;
+  width: 100%;
+  margin-left: .01vmin;
   /*position: relative;*/
   /*left: -.2%;*/
 }
