@@ -5,7 +5,11 @@ body {
   padding: 0;
   background-color: black;
   text-align: center;
-  font-size: min(2.8vw, 1.75rem);
+  font-size: min(3.8vw, 1.75rem);
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 a{
   color: #0000AF;
@@ -31,48 +35,45 @@ p {
 
 .cursiveWF{
   font-family: 'Waterfall', cursive;
-  font-size: min(3.8vw, 2.375rem);
+  font-size: min(5.5vw, 2.75rem);
 }
 
 #first-box{
   position: relative;
-  /*margin-top: min(5vw, 10px);*/
-  /*margin-bottom: min(5vw, 10px);*/
   padding: 0;
   text-align: left;
-  /*top: calc(50vh - 31.3vw);*/
-  top: max(calc(50vh - 31.3vw), calc(50vh - 313px));
-  left: max(calc(50vw - 36vw), calc(50vw - 360px));
-  width: min(72vw, 720px);
-  height: min(60.6vw, 606px);
+  top: max(calc(50vh - 37.875vw), calc(50vh - 313px));
+  left: max(calc(50vw - 45vw), calc(50vw - 360px));
+  width: min(90vw, 720px);
+  height: min(75.75vw, 606px);
   background-color: steelblue;
   border-radius: 0 40%;
 }
 #top{
   background-color: lightskyblue;
-  height: min(15vw, 150px);
-  width: min(35vw, 350px);
-  border: solid min(1vw, 10px);
-  padding: min(2vw, 20px);
+  height: min(18.75vw, 150px);
+  width: min(43.75vw, 350px);
+  border: solid min(1.25vw, 10px);
+  padding: min(2.5vw, 20px);
   padding-top: 0;
   margin-left: 0;
 }
 
 #middle{
   background-color: royalblue;
-  height: min(18vw, 180px);
-  width: min(29.4vw, 294px);
-  border: solid min(.8vw, 8px);
-  margin-left: min(41vw, 410px);
+  height: min(22.5vw, 180px);
+  width: min(36.75 vw, 294px);
+  border: solid min(1vw, 8px);
+  margin-left: min(51.25vw, 410px);
   border-top-right-radius: 20%;
 }
 
 #bottom{
   background-color: deepskyblue;
-  height: min(20vw, 200px);
-  width: min(20vw, 200px);
-  border: solid min(1vw, 10px);
-  margin-left: min(19vw, 190px);
+  height: min(25vw, 200px);
+  width: min(25vw, 200px);
+  border: solid min(1.25vw, 10px);
+  margin-left: min(23.75vw, 190px);
   border-bottom-left-radius: 30%;
 }
 
