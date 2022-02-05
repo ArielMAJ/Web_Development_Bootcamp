@@ -5,7 +5,7 @@ body {
   padding: 0;
   background-color: black;
   text-align: center;
-  font-size: min(3.8vw, 1.75rem);
+  font-size: 3.9vmin;
 }
 
 body::-webkit-scrollbar {
@@ -17,9 +17,9 @@ a{
 
 h1, h2, h3{
   padding: 0;
-  padding-left: .5vw;
-  margin-top: 2%;
-  margin-bottom: 5%;
+  padding-left: .5vmin;
+  margin-top: 0;
+  margin-bottom: 0;
   font-family: 'Neonderthaw', cursive;
   color: #150811;
   font-weight: normal;
@@ -27,7 +27,7 @@ h1, h2, h3{
 
 p {
   font-family: 'Playfair Display', serif;
-  padding-left: 2vw;
+  padding-left: 2vmin;
   margin-top: 0;
   font-weight: bold;
   color: #150578;
@@ -35,45 +35,45 @@ p {
 
 .cursiveWF{
   font-family: 'Waterfall', cursive;
-  font-size: min(5.5vw, 2.75rem);
+  font-size: 6.2vmin;
 }
 
 #first-box{
   position: relative;
   padding: 0;
   text-align: left;
-  top: max(calc(50vh - 37.875vw), calc(50vh - 313px));
-  left: max(calc(50vw - 45vw), calc(50vw - 360px));
-  width: min(90vw, 720px);
-  height: min(75.75vw, 606px);
+  top: calc(50vh - 37.875vmin);
+  left: calc(50vw - 45vmin);
+  width: 90vmin;
+  height: 75.75vmin;
   background-color: steelblue;
   border-radius: 0 40%;
 }
 #top{
   background-color: lightskyblue;
-  height: min(18.75vw, 150px);
-  width: min(43.75vw, 350px);
-  border: solid min(1.25vw, 10px);
-  padding: min(2.5vw, 20px);
+  height: 18.75vmin;
+  width: 43.75vmin;
+  border: solid 1.25vmin;
+  padding: 2.5vmin;
   padding-top: 0;
   margin-left: 0;
 }
 
 #middle{
   background-color: royalblue;
-  height: min(22.5vw, 180px);
-  width: min(36.75 vw, 294px);
-  border: solid min(1vw, 8px);
-  margin-left: min(51.25vw, 410px);
+  height: 22.5vmin;
+  width: 36.75vmin;
+  border: solid 1vmin;
+  margin-left: 51.25vmin;
   border-top-right-radius: 20%;
 }
 
 #bottom{
   background-color: deepskyblue;
-  height: min(25vw, 200px);
-  width: min(25vw, 200px);
-  border: solid min(1.25vw, 10px);
-  margin-left: min(23.75vw, 190px);
+  height: 25vmin;
+  width: 25vmin;
+  border: solid 1.25vmin;
+  margin-left: 23.75vmin;
   border-bottom-left-radius: 30%;
 }
 
@@ -123,7 +123,7 @@ p {
 }
 #dev{
   margin: 0;
-  font-size: min(max(8vw,2.2rem),4rem);
+  font-size: 11vmin;
 }
 
 #learning{
@@ -239,17 +239,14 @@ p {
     right: 10vw;
   }
 }
-/*
 
 
-/* Container for flexboxes */
 .row {
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
 }
 
-/* Create four equal columns */
 .column {
   box-sizing: border-box;
   flex: 50%;
@@ -258,10 +255,6 @@ p {
   margin: 0;
 }
 
-/* On screens that are 992px wide or less, go from four columns to two columns */
-
-
-/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 811px) {
   .row {
     flex-direction: column;
@@ -269,23 +262,17 @@ p {
 }
 
 @media only screen and (min-width : 812px) {
-  .top, .middle, .bottom {
-    font-size: 21px;
-  } 
-  .cursiveWF{
-    font-size: 40px;
-  }
   p{
     font-size: 1.6vw;
   }
+
   .aboutMeImages{
     width: 12vw;
     height: 12vw;
   }
+
   .bigger-img{
     width: 15vw;
     height: 15vw;
   }
-
-
 }
