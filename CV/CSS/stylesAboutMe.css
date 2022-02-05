@@ -146,7 +146,7 @@ p {
   /*justify-items: center;*/
   padding: 1vw;
   text-align: justify;
-  margin: 2% 8%;
+  margin: 2%;
   border-radius: 8vw;
   background-color: #B8E4EC;
   /*min-height: 20vw;*/
@@ -241,11 +241,51 @@ p {
 }
 /*
 
-@media only screen and (min-width : 1000px) {
+
+/* Container for flexboxes */
+.row {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create four equal columns */
+.column {
+  box-sizing: border-box;
+  flex: 50%;
+  padding: 0;
+  align-self: center;
+  margin: 0;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 850px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width : 850px) {
   .top, .middle, .bottom {
     font-size: 21px;
   } 
   .cursiveWF{
     font-size: 40px;
   }
-}*/
+  p{
+    font-size: 1.6vw;
+  }
+  .aboutMeImages{
+    width: 12vw;
+    height: 12vw;
+  }
+  .bigger-img{
+    width: 15vw;
+    height: 15vw;
+  }
+
+
+}
