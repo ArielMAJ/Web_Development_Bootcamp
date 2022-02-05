@@ -244,9 +244,10 @@ textarea{
 
 #homePageName{
   position: absolute;
-  font-size: min(9vw, 4.5rem);
+  font-size: min(9vmin, 4.5rem);
   bottom: 5%;
-  left: 1%;
+  left: 0;
+  margin-left: 4px;
   /*background-color: red;*/
   max-width: 20vw;
   font-family: 'WindSong', serif;
@@ -255,7 +256,7 @@ textarea{
 #homePageTxt{
   display: inline-block;
   margin: 0;
-  text-align: center;
+  text-align: justify;
   font-size: 1rem;
 }
 
@@ -322,14 +323,14 @@ textarea{
 }
 
 /* On screens that are 992px wide or less, go from four columns to two columns */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 811px) {
   .column {
     flex: 50%;
   }
 }
 
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .row {
     flex-direction: column;
   }

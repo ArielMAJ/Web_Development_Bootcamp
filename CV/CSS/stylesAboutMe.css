@@ -262,13 +262,13 @@ p {
 
 
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 811px) {
   .row {
     flex-direction: column;
   }
 }
 
-@media only screen and (min-width : 850px) {
+@media only screen and (min-width : 812px) {
   .top, .middle, .bottom {
     font-size: 21px;
   } 
