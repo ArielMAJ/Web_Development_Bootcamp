@@ -301,8 +301,8 @@ textarea{
 
 #aboutmeBox{
   border: 1px solid;
-  border-radius: 2vw;
-  padding: .5rem;
+  border-radius: 5px;
+  padding: .2rem .5rem .5rem .5rem;
 
 
 }
