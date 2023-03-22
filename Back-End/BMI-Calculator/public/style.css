@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+#first-page {
+  height: 100vh;
+  width: 100vw;
+  background: gray;
+}
+
+.flex-container-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  margin: auto;
+}
+
+#calculator {
+  width: 218px;
+  background: darkgray;
+  padding: 30px;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.m-0 {
+  margin: 0;
+}

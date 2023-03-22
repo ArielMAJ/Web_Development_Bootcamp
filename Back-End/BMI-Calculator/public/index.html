@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>BMI</title>
+  </head>
+  <body>
+    <div id="first-page" class="flex-container-col">
+      <div id="calculator" class="flex-container-col">
+        <h1>BMI Calculator</h1>
+        <form
+          action="/"
+          method="post"
+          class="flex-container-col m-0"
+          onsubmit="return validate(this);"
+        >
+          <input name="weight" placeholder="Weight" />
+          <input name="height" placeholder="Height" />
+          <button type="submit" name="submit">Calculate BMI</button>
+        </form>
+      </div>
+    </div>
+    <script>
+      function validate(form) {
+        const weight = parseFloat(form.weight.value);
+        const height = parseFloat(form.height.value);
+        
+        const valid = !isNaN(weight) && !isNaN(height) && weight > 0 && height > 0;
+
+        if (!valid) {
+          alert("Invalid input! Please enter valid positive numbers.");
+          return false;
+        }
+        return true;
+      }
+    </script>
+  </body>
+</html>
